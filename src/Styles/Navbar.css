@@ -1,0 +1,122 @@
+*{
+  margin: 0px;  
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+.navbarContainer{
+ background-color: #1E2239;   
+ display: flex;
+ justify-content: space-between;
+ padding-left: 50px;
+ padding-right: 100px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ align-items: center;
+}
+.logo img{
+width:170px;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navLinks li{
+    text-decoration: none;
+padding-left: 20px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+list-style: none;
+
+}
+
+
+.tooglelinks{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .navbarContainer{
+        display: none;
+    }
+    .logo img{
+        width:100px;
+        }
+    .toggle{
+        display: contents;
+        background-color: #1E2239;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }   
+    .toogleIcon svg {
+        width: 30px;
+        height: 30px;
+        /* background-color: white; */
+        border-radius: 2px;
+        color: white;
+    }   
+    .tooglelinks{
+        display: contents;
+    }
+    
+    .navSlideOpen{
+        display: flex;
+        flex-direction: column;
+        background-color: #1E2239;
+        width: 70%;
+        height: 500px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        border-top-right-radius: 100px;
+        text-align: center;
+        overflow: hidden;
+        transition:all 0.5s ease-in-out;
+        z-index: 2;
+        
+        
+    }
+    .navSlideOpen li{
+        text-decoration: none;
+    padding-left:2px;
+    padding-top:50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    }
+
+    .navSlideClose{
+        display: flex;
+        flex-direction: column;
+        background-color:#1E2239;
+        width: 70%;
+        height: 500px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        border-top-right-radius: 100px;
+        text-align: center;
+        margin-left: -500px;
+        overflow: hidden;
+        transition:all 0.5s ease-in-out;
+        z-index: 0;
+        
+        
+    }
+    .navSlideClose li{
+        text-decoration: none;
+    padding-left:2px;
+    padding-top:50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    
+    }
+}
