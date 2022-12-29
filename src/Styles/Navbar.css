@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 .navbarContainer {
@@ -14,7 +13,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
     align-items: center;
-    /* position: relative; */
 }
 
 .logo img {
@@ -74,7 +72,6 @@
     .toogleIcon svg {
         width: 30px;
         height: 30px;
-        /* background-color: white; */
         border-radius: 2px;
         color: white;
     }
@@ -98,9 +95,6 @@
         overflow: hidden;
         transition: all 0.5s ease-in-out;
         z-index: 3;
-
-
-
     }
 
     .navSlideOpen li {
@@ -111,7 +105,6 @@
         font-weight: bold;
         font-size: 18px;
         list-style: none;
-
     }
 
     .navSlideClose {
@@ -129,8 +122,6 @@
         overflow: hidden;
         transition: all 0.5s ease-in-out;
         z-index: 3;
-
-
     }
 
     .navSlideClose li {
@@ -141,9 +132,5 @@
         font-weight: bold;
         font-size: 18px;
         list-style: none;
-        /* overflow: hidden; */
-        /* z-index: 3; */
-
-
     }
 }

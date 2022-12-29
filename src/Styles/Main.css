@@ -86,7 +86,6 @@
     height: 500px;
 }
 
-
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .mainContainer {
         background-color: #24253F;
@@ -107,7 +106,6 @@
     .icon {
         width: 50%;
         margin: 20px auto;
-
     }
 
     .icon ul {

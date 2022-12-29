@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import '../../Styles/Services.css'
 import OfferiingService from './OfferiingService'
 import { FaCamera } from 'react-icons/fa'
@@ -7,11 +7,12 @@ import { ImZoomIn } from 'react-icons/im'
 import { FaCircleNotch } from 'react-icons/fa'
 
 export default function Services() {
-  const [about]=useState(
-    {title:'Services',
-    heading:'My Services',
-    description:'Note that the development build is not optimized. To create a production build, use npm run build'
-  }
+  const [about] = useState(
+    {
+      title: 'Services',
+      heading: 'My Services',
+      description: 'Note that the development build is not optimized. To create a production build, use npm run build'
+    }
   )
   const data = [
     {
@@ -52,29 +53,18 @@ export default function Services() {
     },
   ]
 
-
   return (
     <>
       <div className='ServicesHeader'>
-      <h3>{about.title}</h3>
-    <h1>{about.heading}</h1>
-    <p>{about.description}</p>
+        <h3>{about.title}</h3>
+        <h1>{about.heading}</h1>
+        <p>{about.description}</p>
         <div className='borderBottom'></div>
       </div>
       <div className='Boxes'>
-
         {data.map((d) => <OfferiingService Icon={d.icon} Title={d.title} Detail={d.detail} />)}
       </div>
     </>
-
   )
-
 }
-
-
-// const OfferingService = ({ Icon, title, detail }) => {
-//   return (
-//     <div>Services</div>
-//   )
-// }
 

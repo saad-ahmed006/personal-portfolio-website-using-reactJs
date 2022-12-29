@@ -12,7 +12,6 @@ export default function Main() {
         buttontext: " My Profile"
     })
     return (
-
         <>
             <div className='mainContainer'>
                 <div className='leftDiv'>
@@ -37,7 +36,6 @@ export default function Main() {
                 </div>
                 <div className='rightDiv'>
                     <img src={MainImage} alt=""></img>
-
                 </div>
             </div></>
     )
