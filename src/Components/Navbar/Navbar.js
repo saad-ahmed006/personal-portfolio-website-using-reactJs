@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import { AiOutlineMenu, AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineCloseCircle, } from "react-icons/ai";
+
+
 import Logo from '../Assets/logo.png'
 import '../../Styles/Navbar.css'
 
@@ -35,13 +37,10 @@ export default function Navbar() {
                         <img src={Logo} alt="img"></img>
                     </div>
                     <div className='toogleIcon' onClick={handleChange}>
-
                         {toggleOpenDrawer ? <AiOutlineCloseCircle /> : <AiOutlineMenu />}
                     </div>
-
                 </div>
-                <div className={toggleOpenDrawer? 'navSlideOpen':'navSlideClose'} >
-
+                <div className={toggleOpenDrawer ? 'navSlideOpen' : 'navSlideClose'} >
                     <li className='Link'>Home</li>
                     <li className='Link'>Services</li>
                     <li className='Link'>About</li>
@@ -49,12 +48,12 @@ export default function Navbar() {
                     <li className='Link'>Portfolio</li>
                     <li className='Link'>Blog</li>
                     <li className='Link'>Contact</li>
-                    
-
-
                 </div>
 
             </div>
+
+
+            {/* main  */}
 
 
 
@@ -64,3 +63,8 @@ export default function Navbar() {
 
 
 // BiListUl
+// BsFacebook
+// AiOutlineBehance
+// AiOutlineTwitter
+// FaPinterest
+// FaInstagram

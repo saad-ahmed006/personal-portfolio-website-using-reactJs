@@ -1,49 +1,63 @@
-*{
-  margin: 0px;  
-  padding: 0px;
-  box-sizing: border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
 }
-.navbarContainer{
- background-color: #1E2239;   
- display: flex;
- justify-content: space-between;
- padding-left: 50px;
- padding-right: 100px;
- padding-top: 15px;
- padding-bottom: 15px;
- align-items: center;
+
+.navbarContainer {
+    background-color: #1E2239;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    /* position: relative; */
 }
-.logo img{
-width:170px;
+
+.logo img {
+    width: 170px;
 }
-.navLinks{
+
+.navLinks {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.navLinks li{
+
+.navLinks li {
     text-decoration: none;
-padding-left: 20px;
-color: white;
-font-weight: bold;
-font-size: 18px;
-list-style: none;
+    padding: 8px 9px 8px 9px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
 
 }
 
+.navLinks li:hover {
+    background-color: #ff4a57;
+}
 
-.tooglelinks{
+
+.tooglelinks {
     display: none;
 }
+
 @media only screen and (max-width: 768px) {
-    .navbarContainer{
+    .navbarContainer {
         display: none;
     }
-    .logo img{
-        width:100px;
-        }
-    .toggle{
+
+    .logo img {
+        width: 100px;
+    }
+
+    .toggle {
         display: contents;
         background-color: #1E2239;
         display: flex;
@@ -53,70 +67,83 @@ list-style: none;
         padding-right: 20px;
         padding-top: 15px;
         padding-bottom: 15px;
-        
-    }   
+        position: relative;
+
+    }
+
     .toogleIcon svg {
         width: 30px;
         height: 30px;
         /* background-color: white; */
         border-radius: 2px;
         color: white;
-    }   
-    .tooglelinks{
+    }
+
+    .tooglelinks {
         display: contents;
     }
-    
-    .navSlideOpen{
+
+    .navSlideOpen {
         display: flex;
         flex-direction: column;
-        background-color: #1E2239;
+        background-color: white;
         width: 70%;
-        height: 500px;
+        height: 100%;
+        position: absolute;
         padding-bottom: 40px;
         margin-top: 10px;
         border-top-right-radius: 100px;
+        border-bottom-right-radius: 20px;
         text-align: center;
         overflow: hidden;
-        transition:all 0.5s ease-in-out;
-        z-index: 2;
-        
-        
-    }
-    .navSlideOpen li{
-        text-decoration: none;
-    padding-left:2px;
-    padding-top:50px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    list-style: none;
+        transition: all 0.5s ease-in-out;
+        z-index: 3;
+
+
+
     }
 
-    .navSlideClose{
+    .navSlideOpen li {
+        text-decoration: none;
+        padding-left: 2px;
+        padding-top: 50px;
+        color: #1E2239;
+        font-weight: bold;
+        font-size: 18px;
+        list-style: none;
+
+    }
+
+    .navSlideClose {
         display: flex;
         flex-direction: column;
-        background-color:#1E2239;
-        width: 70%;
-        height: 500px;
+        background-color:white;
+        width: 0%;
+        height: 0px;
         padding-bottom: 40px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         border-top-right-radius: 100px;
         text-align: center;
         margin-left: -500px;
+        position: absolute;
         overflow: hidden;
-        transition:all 0.5s ease-in-out;
-        z-index: 0;
-        
-        
+        transition: all 0.5s ease-in-out;
+        z-index: 3;
+
+
     }
-    .navSlideClose li{
+
+    .navSlideClose li {
         text-decoration: none;
-    padding-left:2px;
-    padding-top:50px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    list-style: none;
-    
+        padding-left: 2px;
+        padding-top: 50px;
+        color: #1E2239;
+        font-weight: bold;
+        font-size: 18px;
+        list-style: none;
+        /* overflow: hidden; */
+        /* z-index: 3; */
+
+
     }
 }

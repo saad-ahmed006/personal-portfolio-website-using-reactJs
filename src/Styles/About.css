@@ -1,0 +1,112 @@
+.AboutHeader {
+    background-color: #24263B;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutHeader h3 {
+    padding-top: 10px;
+    color: #ff4a57;
+    font-size: 20px;
+}
+
+.AboutHeader h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.AboutHeader p {
+    padding-top: 20px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.borderBottom {
+    border: 2px solid #ff4a57;
+    width: 120px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .AboutHeader {
+        background-color: #24263B;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AboutHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 20px;
+    }
+
+    .AboutHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .AboutHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 400px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 120px;
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .AboutHeader {
+        background-color: #24263B;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AboutHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 18px;
+    }
+
+    .AboutHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 23px;
+    }
+
+    .AboutHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 300px;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 100px;
+        margin-top: 40px;
+    }
+}

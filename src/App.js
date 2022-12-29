@@ -1,11 +1,16 @@
+import About from "./Components/About/About";
+import Main from "./Components/Main/Main";
 import Navbar from "./Components/Navbar/Navbar";
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
     <>
-    <div>
-<Navbar/>      
-    </div>
+      <Navbar />
+        <Main/>
+      <Services />
+<About/>
+
     </>
   );
 }
