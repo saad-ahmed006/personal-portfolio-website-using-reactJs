@@ -7,7 +7,7 @@ import '../../Styles/Main.css'
 
 export default function Main() {
     const [state] = useState({
-        title: "I am Syed Muhammad Saad",
+        title: "Johnthan Doe",
         paragraph: `Note that the development build is not optimized.To create a {br}production build, use npm run build.`,
         buttontext: " My Profile"
     })

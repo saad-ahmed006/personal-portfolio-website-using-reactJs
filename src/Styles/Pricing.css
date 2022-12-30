@@ -1,0 +1,307 @@
+.PricingHeader {
+    background-color: #1E2239;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PricingHeader h3 {
+    padding-top: 10px;
+    color: #ff4a57;
+    font-size: 25px;
+}
+
+.PricingHeader h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.PricingHeader p {
+    padding-top: 20px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.borderBottom {
+    border: 2px solid #ff4a57;
+    width: 200px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .PricingHeader {
+        background-color: #1E2239;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PricingHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 20px;
+    }
+
+    .PricingHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .PricingHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 400px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 120px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .PricingHeader {
+        background-color: #1E2239;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PricingHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 18px;
+    }
+
+    .PricingHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 23px;
+    }
+
+    .PricingHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 300px;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 100px;
+        margin-top: 40px;
+    }
+}
+
+
+/* pricing item */
+
+.PricingItemContainer {
+    background-color: #1E2239;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.PricingItem {
+    background-color: #24263B;
+    width: 22%;
+    height: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 4px 18px #1E2239;
+    border-radius: 8px;
+}
+
+.PricingItem h4 {
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.PricingItem h1 {
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.PricingItem p {
+    padding-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.PricingItem .divider {
+    border: 0.7px solid rgb(131, 127, 127);
+    width: 90%;
+    margin-top: 15px;
+}
+
+.PricingItem .PricingButton {
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ff4a57;
+    background-color: #24263B;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.PricingItem .PricingButton:hover {
+    background-color: white;
+    color: #1E2239;
+}
+
+@media only screen and (min-width:500px) and (max-width:900px) {
+    .PricingItemContainer {
+        background-color: #1E2239;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .PricingItem {
+        background-color: #24263B;
+        margin: 20px 1px 20px 1px;
+        width: 50%;
+        height: auto;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 4px 18px #1E2239;
+        border-radius: 8px;
+    }
+
+    .PricingItem h4 {
+        padding-top: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .PricingItem h1 {
+        padding-top: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .PricingItem p {
+        padding-top: 11px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .PricingItem .divider {
+        border: 0.7px solid rgb(131, 127, 127);
+        width: 90%;
+        margin-top: 11px;
+
+    }
+
+    .PricingItem .PricingButton {
+        padding: 13px 30px 13px 30px;
+        border-radius: 25px;
+        margin-top: 15px;
+        border: 1px solid #ff4a57;
+        background-color: #24263B;
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .PricingItem .PricingButton:hover {
+        background-color: white;
+        color: #1E2239;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:499px) {
+    .PricingItemContainer {
+        background-color: #1E2239;
+        padding: 20px 5px 20px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .PricingItem {
+        background-color: #24263B;
+        margin: 20px 0px 20px 0px;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 4px 18px #1E2239;
+        border-radius: 8px;
+    }
+
+    .PricingItem h4 {
+        padding-top: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .PricingItem h1 {
+        padding-top: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .PricingItem p {
+        padding-top: 11px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .PricingItem .divider {
+        border: 0.7px solid rgb(131, 127, 127);
+        width: 90%;
+        margin-top: 11px;
+    }
+
+    .PricingItem .PricingButton {
+        padding: 13px 30px 13px 30px;
+        border-radius: 25px;
+        margin-top: 15px;
+        border: 1px solid #ff4a57;
+        background-color: #24263B;
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .PricingItem .PricingButton:hover {
+        background-color: white;
+        color: #1E2239;
+    }
+
+}

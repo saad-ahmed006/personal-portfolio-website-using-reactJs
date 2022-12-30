@@ -110,6 +110,9 @@
     }
 }
 
+
+/* Services Box */
+
 .Boxes {
     display: flex;
     flex-direction: row;
@@ -134,12 +137,22 @@
     padding-left: 20px;
     border-radius: 5px;
     box-shadow: 5px 1px 18px #1E2239;
+    transition: all 0.2s ease-in-out;
+}
+
+.Box:hover {
+    background-color: #C4544A;
+}
+
+.Box:hover .Icon {
+    color: white;
 }
 
 .Icon {
     color: #ff4a57;
     font-size: 25px;
 }
+
 
 .Title {
     font-size: 28px;
@@ -174,6 +187,15 @@
         text-align: left;
         border-radius: 5px;
         box-shadow: 5px 5px 18px #1E2239;
+
+    }
+
+    .Box:hover {
+        background-color:#24263B;
+    }
+
+    .Box:hover .Icon {
+        color: #ff4a57;
     }
 
     .Icon {

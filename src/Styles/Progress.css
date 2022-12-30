@@ -1,0 +1,227 @@
+.ProgressContainer {
+    background-color: #24263B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.HireMe {
+    width: 600px;
+    color: white;
+}
+
+.HireMe h1 {
+    padding-top: 30px;
+}
+
+.HireMe h4 {
+    color: #ff4a57;
+    padding-top: 20px;
+}
+
+.HireMe p {
+    padding-top: 30px;
+}
+
+.HireMe .ProgressButton {
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ff4a57;
+    background-color: #24263B;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.HireMe .ProgressButton:hover {
+    background-color: white;
+    color: #1E2239;
+}
+
+.ProgressBar {
+    padding-left: 20px;
+}
+
+.HTML {
+    border: 4px solid white;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.CSS {
+    border: 4px solid rgb(178, 207, 13);
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.JAVASCRIPT {
+    border: 4px solid rgb(160, 24, 24);
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.ProgressBar p {
+    color: white;
+    padding-top: 20px;
+}
+
+@media only screen and (min-width:500px) and (max-width:760px) {
+    .ProgressContainer {
+        background-color: #24263B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .HireMe {
+        color: white;
+        text-align: center;
+        width: auto;
+    }
+
+    .HireMe h1 {
+        padding-top: 30px;
+    }
+
+    .HireMe h4 {
+        color: #ff4a57;
+        padding-top: 20px;
+    }
+
+    .HireMe p {
+        padding-top: 30px;
+    }
+
+    .HireMe .ProgressButton {
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        border: 1px solid #ff4a57;
+        background-color: #24263B;
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .HireMe .ProgressButton:hover {
+        background-color: white;
+        color: #1E2239;
+    }
+
+    .ProgressBar {
+        padding-left: 20px;
+    }
+
+
+    .HTML {
+        border: 4px solid white;
+        width: 400px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .CSS {
+        border: 4px solid rgb(178, 207, 13);
+        width: 400px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .JAVASCRIPT {
+        border: 4px solid rgb(160, 24, 24);
+        width: 350px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .ProgressBar p {
+        color: white;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:499px) {
+    .ProgressContainer {
+        background-color: #24263B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .HireMe {
+        color: white;
+        text-align: center;
+        width: auto;
+    }
+
+    .HireMe h1 {
+        padding-top: 20px;
+    }
+
+    .HireMe h4 {
+        color: #ff4a57;
+        padding-top: 20px;
+    }
+
+    .HireMe p {
+        padding-top: 20px;
+    }
+
+    .HireMe .ProgressButton {
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        border: 1px solid #ff4a57;
+        background-color: #24263B;
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .HireMe .ProgressButton:hover {
+        background-color: white;
+        color: #1E2239;
+    }
+
+    .ProgressBar {
+        padding-left: 20px;
+    }
+
+
+    .HTML {
+        border: 4px solid white;
+        width: 300px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .CSS {
+        border: 4px solid rgb(178, 207, 13);
+        width: 300px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .JAVASCRIPT {
+        border: 4px solid rgb(160, 24, 24);
+        width: 250px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+    .ProgressBar p {
+        color: white;
+        padding-top: 20px;
+    }
+
+
+}
