@@ -42,7 +42,7 @@ export default function About() {
 
       <div className='AboutContainer'>
         <div className='AboutImage'>
-          <img src={AboutImage}></img>
+          <img src={AboutImage} alt=""></img>
         </div>
         <div className='AboutText'>
 

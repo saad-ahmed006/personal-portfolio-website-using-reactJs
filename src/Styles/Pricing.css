@@ -7,6 +7,8 @@
     justify-content: center;
 }
 
+
+
 .PricingHeader h3 {
     padding-top: 10px;
     color: #ff4a57;
@@ -131,6 +133,12 @@
     align-items: center;
     box-shadow: 5px 4px 18px #1E2239;
     border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.PricingItem:hover {
+    background-color: #C4544A;
+
 }
 
 .PricingItem h4 {

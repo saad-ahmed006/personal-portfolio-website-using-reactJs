@@ -1,0 +1,94 @@
+.FooterContainer {
+    background-color: #1E2239;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.FooterContainer img {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: auto;
+}
+
+.FooterContainer p {
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+.FooterIcon{
+    display: flex;
+}
+.FooterIcon div{
+    color: white;
+    border: 2px solid #ff4a57;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px ;
+}
+.FooterIcon div:hover{
+    background: #fff;
+    color: #24253F;
+    border: 2px solid transparent;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+    .FooterContainer {
+        background-color: #24263B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    
+    .FooterContainer img {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        margin: auto;
+    }
+    
+    .FooterContainer p {
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        padding: 20px;
+    }
+    .FooterIcon{
+        display: flex;
+    }
+    .FooterIcon div{
+        color: white;
+        border: 2px solid #ff4a57;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+        padding: 8px;
+        font-size: 15px ;
+    }
+    .FooterIcon div:hover{
+        background: #fff;
+        color: #24253F;
+        border: 2px solid transparent;
+    }
+    
+}

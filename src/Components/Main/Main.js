@@ -31,7 +31,8 @@ export default function Main() {
                     </button>
 
                     <button className='iconButton'>
-                        <AiFillPlayCircle />
+                       
+                     <AiFillPlayCircle />
                     </button>
                 </div>
                 <div className='rightDiv'>

@@ -22,17 +22,17 @@
 }
 
 .leftDiv .icon ul li {
-    width: 50px;
     color: white;
-    height: 50px;
     border: 2px solid #ff4a57;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
+    margin: 10px;
     transition: all 0.5s linear;
     cursor: pointer;
+    padding: 10px;
+    font-size: 20px ;
 }
 
 .icon ul li:hover {
@@ -71,16 +71,18 @@
 }
 
 .leftDiv .iconButton {
-    padding: 10px 35px 5px 35px;
+    padding: 8px 35px 8px 35px;
     margin-left: 40px;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 25px;
+    width: 100px;
     border-radius: 30px;
     border: none;
     background-color: #ff4a57;
     color: white;
 
 }
+
 
 .rightDiv img {
     width: 100%;
@@ -112,21 +114,22 @@
     .icon ul {
         list-style-type: none;
         display: flex;
+        justify-content: center;
         margin-bottom: 20px;
     }
 
     .icon ul li {
-        width: 50px;
         color: white;
-        height: 20px;
-        border: 2px solid #ff4a57;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;
-        transition: all 0.5s linear;
-        cursor: pointer;
+    border: 2px solid #ff4a57;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px ;
     }
 
     .icon ul li:hover {
@@ -208,13 +211,14 @@
     .icon ul {
         list-style-type: none;
         display: flex;
+        justify-content: center;
         margin-bottom: 20px;
     }
 
     .icon ul li {
-        width: 50px;
+       
+
         color: white;
-        height: 20px;
         border: 2px solid #ff4a57;
         border-radius: 50%;
         display: flex;
@@ -223,6 +227,8 @@
         margin: 10px;
         transition: all 0.5s linear;
         cursor: pointer;
+        padding: 5px;
+        font-size: 4px ;
     }
 
     .icon ul li:hover {

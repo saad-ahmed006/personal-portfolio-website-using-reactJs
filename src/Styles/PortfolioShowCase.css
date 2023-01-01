@@ -1,0 +1,218 @@
+.PortfolioHeader {
+    background-color: #1E2239;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PortfolioHeader h3 {
+    padding-top: 10px;
+    color: #ff4a57;
+    font-size: 20px;
+}
+
+.PortfolioHeader h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.PortfolioHeader p {
+    padding-top: 20px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.borderBottom {
+    border: 2px solid #ff4a57;
+    width: 120px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .PortfolioHeader {
+        background-color: #1E2239;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PortfolioHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 20px;
+    }
+
+    .PortfolioHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .PortfolioHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 400px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 120px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .PortfolioHeader {
+        background-color: #1E2239;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PortfolioHeader h3 {
+        padding-top: 10px;
+        color: #ff4a57;
+        font-size: 18px;
+    }
+
+    .PortfolioHeader h1 {
+        padding-top: 20px;
+        color: white;
+        font-size: 23px;
+    }
+
+    .PortfolioHeader p {
+        padding-top: 20px;
+        text-align: center;
+        width: 300px;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .borderBottom {
+        border: 2px solid #ff4a57;
+        width: 100px;
+        margin-top: 40px;
+    }
+}
+
+/* portfolioshowcase */
+
+.PortfolioContainer {
+    background-color: #1E2239;
+    display: flex;
+    flex-direction: column;
+}
+
+.PortfolioButton {
+    margin: auto;
+
+}
+
+.PortfolioButton button {
+    cursor: pointer;
+    margin-left: 30px;
+    width: 130px;
+    height: auto;
+    padding: 14px;
+    border-radius: 30px;
+    border: 1px solid #ff4a57;
+    background-color: #24263B;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    margin-top: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.PortfolioButton button:hover {
+    background-color: white;
+    color: #1E2239;
+
+}
+
+.Image-Container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Image-Container h3 {
+    padding-top: 10px;
+    color: white;
+}
+
+.Image-Container {
+    padding-top: 20px;
+    width: 400px;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .PortfolioButton {
+        margin: auto;
+    }
+
+    .PortfolioButton button {
+        margin-left: 30px;
+        width: 130px;
+        height: auto;
+        padding: 14px;
+        border-radius: 30px;
+        border: 1px solid #ff4a57;
+        background-color: #24263B;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        outline: none;
+        margin-top: 50px;
+    }
+
+    .Image-Container img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px
+    }
+
+    .Image-Container h3 {
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .Image-Container {
+        padding-top: 20px;
+        width: 400px;
+    }
+
+    .Container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
