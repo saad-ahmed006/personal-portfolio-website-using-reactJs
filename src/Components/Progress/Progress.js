@@ -24,6 +24,8 @@ export default function Progress() {
         <div className='CSS'></div>
         <p>JAVASCRIPT</p>
         <div className='JAVASCRIPT'></div>
+        <p>REACT JS</p>
+        <div className='REACT'></div>
       </div>
     </div>
   )

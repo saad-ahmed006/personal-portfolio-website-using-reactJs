@@ -140,11 +140,12 @@
     transition: all 0.2s ease-in-out;
 }
 
-.PortfolioButton button:hover {
+ .PortfolioButton button:hover {
     background-color: white;
     color: #1E2239;
 
-}
+} 
+
 
 .Image-Container img {
     width: 400px;
